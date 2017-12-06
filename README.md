@@ -4,7 +4,6 @@ Left Off With: http://localhost:8888/#/3/24
 
 ## GENERAL NOTES
 * Source code for "php1"?
-* Where is ¨use¨ discussed ... why not with namespaces???
 
 
 ## VM NOTES
@@ -17,6 +16,6 @@ Left Off With: http://localhost:8888/#/3/24
 * Lab: Create a Class
 
 ## POSSIBLE THINGS TO CHANGE:
-* http://localhost:8888/#/3/4: need to add a slide on "use"
+* http://localhost:8888/#/3/4: hightlight "use" and "as"
 * http://localhost:8888/#/3/12: duplication between Use and Notes
 * http://localhost:8888/#/3/22 - 23: Anonymous Classes should be presented at the END of the OOP module
