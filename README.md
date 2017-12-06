@@ -19,3 +19,4 @@ Left Off With: http://localhost:8888/#/3/24
 * http://localhost:8888/#/3/4: hightlight "use" and "as"
 * http://localhost:8888/#/3/12: duplication between Use and Notes
 * http://localhost:8888/#/3/22 - 23: Anonymous Classes should be presented at the END of the OOP module
+* http://localhost:8888/#/3/42: descretion misspelled
