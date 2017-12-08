@@ -15,6 +15,11 @@ Left Off With: http://localhost:8888/#/3/24
 * Lab: Namespace
 * Lab: Create a Class
 
+## Fri 8 Dec 2017
+* Lab: Create an Extensible Super Class
+* Lab: Magic Methods
+
+
 ## POSSIBLE THINGS TO CHANGE:
 * http://localhost:8888/#/3/4: hightlight "use" and "as"
 * http://localhost:8888/#/3/12: duplication between Use and Notes
