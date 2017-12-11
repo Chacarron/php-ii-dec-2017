@@ -19,3 +19,17 @@ foreach($photos as $product){
 }
 
 var_dump($photos);
+
+//erorr for __toString():
+//$photo = new PhotoInfo('1', 'Panasonic_G3');
+//echo $photo;
+
+//error for __call() OR __get():
+//$photo = new Photo;
+//$photo->Photo('test', 'something');
+//echo $photo->something;
+
+foreach($photos as $product){
+    echo $product->getFullDetails() . PHP_EOL;
+}
+var_dump($photos);
