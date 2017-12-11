@@ -10,28 +10,34 @@ class PhotoInfo extends Photo
     }
 
     //Properties Functions
-    public function getCamera() {
+    public function getCamera()
+    {
         return $this->camera;
     }
 
-    public function getPhotoId() {
+    public function getPhotoId()
+    {
         return $this->photoId;
     }
 
-    public function getPrice() {
+    public function getPrice()
+    {
         return $this->price;
     }
 
-    public function getLocation() {
+    public function getLocation()
+    {
         return $this->location;
     }
 
-    public function getSize(){
+    public function getSize()
+    {
         return $this->size;
     }
 
     //return Photo:
-    public function getFullDetails() {
+    public function getFullDetails()
+    {
         // NOTE: this simulates a database lookup
         //       will revisit this later
         switch($this->getPhotoId()) {

@@ -13,18 +13,16 @@ class Photo
 
     //Messages to display when something goes wrong
     public function __toString() {
-        return 'Information not as expected, please try again';
+        return 'Information not as expected, please try again' . PHP_EOL;
     }
 
     public function __call($name, $arg) {
-        echo 'The ' . $name . ' request can not be processed correctly, we are sorry for the inconvenience';
-        echo ' an email has been sent';
-        exit;
+        echo 'The ' . $name . ' request can not be processed correctly, we are sorry for the inconvenience' . PHP_EOL;
+        echo 'An email has been sent' . PHP_EOL;
     }
 
     public function __get($name) {
-        echo 'The request can not be processed correctly, we are sorry for the inconvenience';
-        exit;
+        echo 'The request can not be processed correctly, we are sorry for the inconvenience' . PHP_EOL;
     }
 
 }

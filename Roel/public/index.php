@@ -10,26 +10,21 @@ spl_autoload_register(
     }
 );
 
-$photos[] = new AddPhoto('Mexico, Paleque', 'Panasonic_G3', '120');
-$photos[] = new AddPhoto('USA, Grand Canyon', 'Panasonic_G3', '100');
-$photos[] = new AddPhoto('Portugal, Azores', 'Panasonic_G3', '100');
-
-foreach($photos as $product){
-    echo $product->getFullDetails() . PHP_EOL;
-}
-
-var_dump($photos);
+$photos[] = new PhotoInfo('1', 'Panasonic_G3');
+$photos[] = new PhotoInfo('2', 'Panasonic_G3');
+$photos[] = new PhotoInfo('3', 'Panasonic_G3');
 
 //erorr for __toString():
-//$photo = new PhotoInfo('1', 'Panasonic_G3');
-//echo $photo;
+$photo = new PhotoInfo('1', 'Panasonic_G3');
+echo $photo;
 
 //error for __call() OR __get():
-//$photo = new Photo;
-//$photo->Photo('test', 'something');
-//echo $photo->something;
+$photo = new Photo;
+$photo->Photo('test', 'something');
+echo $photo->something;
 
 foreach($photos as $product){
     echo $product->getFullDetails() . PHP_EOL;
 }
 var_dump($photos);
+
