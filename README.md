@@ -10,6 +10,11 @@ Left Off With: http://localhost:8888/#/3/74
 * Setting up gedit to run PHP directly
   * Path to PHP: `/usr/bin/php`
   * For `Input` be sure to select `Current Document`
+* Configure PHP to display errors
+  * Open a terminal window: `CTL+ALT+T`
+  * Set this directive: `display_errors = On`
+  * PHP on Apache: `sudo gedit /etc/php/7.1/apache2/php.ini`
+  * PHP CLI: `sudo gedit /etc/php/7.1/cli/php.ini`
 
 ## Weds 6 Dec 2017
 * Lab: Namespace
