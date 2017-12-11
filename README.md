@@ -52,6 +52,7 @@ http://collabedit.com/e7ykj
 Under core, each has its own namespace which is the name of the specific folder.
 
 # Mon 11 Dec 2017
+http://collabedit.com/f854d
 
 ## Lab: Magic Methods
 
